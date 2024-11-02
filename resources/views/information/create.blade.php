@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="container mt-5">
+        <a href="{{ route('education.index') }}" class="btn btn-info">Education List</a>
         <h2>Add Educational Information</h2>
         
         <form id="addEducationForm">
